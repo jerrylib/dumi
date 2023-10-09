@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  publicPath: '/dufi/',
+  publicPath: '/dumi/',
   outputPath: 'docs-dist',
   themeConfig: {
     name: 'dufi',
