@@ -1,9 +1,14 @@
 import { defineConfig } from 'dumi';
 
+const path = process.env.NODE_ENV === 'production' ? '/dumi/' : '/'
+
 export default defineConfig({
-  publicPath: '/dumi/',
+  base: path,
+  publicPath: path,
   outputPath: 'docs-dist',
   themeConfig: {
-    name: 'dufi',
+    name: 'TSG',
+    logo: 'https://natata-api.vercel.app/logo.png'
   },
+  favicons: ['https://natata-api.vercel.app/favicon.ico']
 });
