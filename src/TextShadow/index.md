@@ -1,3 +1,6 @@
+---
+order: 1
+---
 # TextShadow
 
 This is an example component.
