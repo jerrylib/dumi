@@ -7,7 +7,7 @@ export default defineConfig({
   publicPath: path,
   outputPath: 'docs-dist',
   themeConfig: {
-    name: 'TSG',
+    name: '托斯嘎',
     logo: 'https://natata-api.vercel.app/logo.png'
   },
   favicons: ['https://natata-api.vercel.app/favicon.ico']
