@@ -107,3 +107,27 @@
 }
 
 // ColorFullText end
+
+
+// ColorBorder start
+.color-border-card {
+    width: 400px;
+    margin: 0 auto;
+    line-height: 2;
+    border-radius: 10px;
+    background: repeating-linear-gradient(-45deg, #ff0266 0px 10px, aqua 10px 20px, #fff 20px 30px) -20px -20px/200% 200%;
+    padding: 5px;
+    transition: 0.7s;
+
+    .text {
+        background: #fff;
+        cursor: pointer;
+        padding: 10px;
+    }
+}
+
+.color-border-card:hover {
+    background-position: 0 0;
+}
+
+// ColorBorder end

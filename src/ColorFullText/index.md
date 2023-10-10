@@ -8,5 +8,5 @@ order: 4
 ```jsx
 import { ColorFullText } from 'dufi';
 
-export default () => <ColorFullText title="Hello d2umi!" />
+export default () => <ColorFullText title="Hello dumi!" />
 ```
