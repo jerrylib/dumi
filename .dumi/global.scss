@@ -37,16 +37,16 @@
     height: 512px;
     position: relative;
     cursor: pointer;
-}
 
-.modal {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    inset: 0;
-    transition: 2s;
-    border-left: 5px solid #333;
-    backdrop-filter: grayscale(1);
+    .modal {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        transition: 2s;
+        backdrop-filter: grayscale(1);
+    }
 }
 
 .frosted-glass-wrap:hover .modal {
@@ -54,3 +54,56 @@
 }
 
 // FrostedGlass end
+
+
+// VideoBarrage start
+.video-barrage-container {
+    height: 376px;
+    width: 668px;
+    background-color: red;
+    position: relative;
+    margin: 0 auto;
+
+    .modal {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        inset: 0;
+        background-color: aqua;
+        -webkit-mask-image: url(./cxk.svg);
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: bold;
+        line-height: 2;
+    }
+}
+
+// VideoBarrage end
+
+// ColorFullText start
+.color-full-text-container {
+    background: #000;
+    text-align: center;
+    padding: 100px;
+
+    span {
+        color: #fff;
+        font-size: 100px;
+        font-weight: bold;
+        animation: spread 1s ease-in-out infinite alternate;
+    }
+}
+
+@keyframes spread {
+    to {
+        color: #ff0266;
+        text-shadow: 20px 0 70px #ff0266;
+    }
+}
+
+@for $i from 1 through 8 {
+    span:nth-child(#{$i}) {
+        animation-delay: $i *0.1s;
+    }
+}
+
+// ColorFullText end
