@@ -1,11 +1,7 @@
 import React, { type FC } from 'react';
 
-// import style from './style.pcss'
-
-const style = {
-    color: 'red'
-}
-console.log('style=', style)
-const TextShadow: FC<{ title: string }> = (props) => <span className='text'>{props.title}</span>;
+const TextShadow: FC<{ title: string }> = (props) => <div className='text-shadow-container'>
+    <span className='text-shadow-content'>{props.title}</span>
+</div>;
 
 export default TextShadow;
