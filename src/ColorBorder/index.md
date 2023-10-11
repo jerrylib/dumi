@@ -3,7 +3,7 @@ order: 5
 ---
 # ColorBorder
 
-This is an example component.
+动效边框，鼠标移入时发生变化
 
 ```jsx
 import { ColorBorder } from 'dufi';

@@ -5,3 +5,7 @@ export { default as FrostedGlass } from './FrostedGlass';
 export { default as VideoBarrage } from './VideoBarrage';
 export { default as ColorFullText } from './ColorFullText';
 export { default as ColorBorder } from './ColorBorder';
+export { default as MultiLine } from './MultiLine';
+export { default as TaperedGradient } from './TaperedGradient';
+export { default as OlympicRings } from './OlympicRings';
+export { default as ThreeDimensionalText } from './ThreeDimensionalText';
